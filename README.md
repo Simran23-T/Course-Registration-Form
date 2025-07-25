@@ -32,7 +32,8 @@ Below is a preview of how the application looks:
  ![Course Registration Form Screenshot]
 
 
-![App Screenshot](./screenshot.png)
+<img width="1890" height="918" alt="image" src="https://github.com/user-attachments/assets/117c047d-038a-4820-8f52-4c74682afbcd" />
+
 
 ---
 
