@@ -37,6 +37,12 @@ Below is a preview of how the application looks:
 
 ---
 
+
+
+
+
+
+
 ## 📂 Project Structure
 
 
