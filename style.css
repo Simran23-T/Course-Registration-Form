@@ -1,0 +1,124 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f0ff, #ffffff); /* soft blue gradient */
+  padding-bottom: 50px;
+}
+
+h2, h4 {
+  color: #004080; /* dark blue */
+}
+
+.form-container {
+  width: 850px;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  margin: 30px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border-left: 6px solid #0073e6; /* blue border */
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e6f3ff; /* soft blue tint */
+}
+
+legend {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0073e6; /* blue */
+  padding: 0 10px;
+}
+
+label {
+  display: inline-block;
+  width: 160px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #004080; /* dark blue */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+  width: calc(100% - 170px);
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  background-color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus {
+  border-color: #0073e6; /* blue */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 115, 230, 0.3);
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+input[type="file"] {
+  margin-top: 5px;
+}
+
+button,
+input[type="button"] {
+  margin: 10px 5px 0 0;
+  min-width: 100px;
+  font-weight: 600;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 6px !important;
+  padding: 8px 16px;
+  transition: background-color 0.2s;
+}
+
+button:hover,
+input[type="button"]:hover {
+  background-color: #005bb5; /* darker blue */
+}
+
+#displaymsg {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #005bb5;
+}
+
+table img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #0073e6;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table th {
+  background-color: #cce6ff !important; /* light blue */
+  color: #004080 !important;            /* dark blue text */
+  font-weight: 600;
+}
+
+.container table {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
